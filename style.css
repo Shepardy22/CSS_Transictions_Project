@@ -54,7 +54,7 @@ transition: 0.3;
 }
 
 .card-wrapper p {
-    font-size: 0px;
+    font-size: 0;
     visibility: hidden;
     opacity: 0;
     font-weight: bold;
@@ -73,5 +73,5 @@ transition: 0.3;
 .card:hover > .card-wrapper p {
     opacity: 1;
     visibility: visible;
-    font: 14px;
+    font-size:  14px;
 }
